@@ -1,0 +1,51 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.677, 'recall': 0.599, 'precision': 0.597, 'f1': 0.598, 'mcc': np.float64(0.195), 'spd': 0.076, 'aod': 0.022, 'eod': 0.093}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=20, max_features='sqrt')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.673, 'recall': 0.615, 'precision': 0.605, 'f1': 0.609, 'mcc': np.float64(0.221), 'spd': 0.194, 'aod': 0.155, 'eod': 0.141}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=20, max_features='log2',
+                       splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.647, 'recall': 0.57, 'precision': 0.567, 'f1': 0.568, 'mcc': np.float64(0.137), 'spd': 0.126, 'aod': 0.121, 'eod': 0.017}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=50, max_features='log2')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 50, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.61, 'recall': 0.538, 'precision': 0.534, 'f1': 0.534, 'mcc': np.float64(0.072), 'spd': 0.097, 'aod': 0.094, 'eod': 0.049}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=10, max_features='sqrt')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.633, 'recall': 0.554, 'precision': 0.551, 'f1': 0.552, 'mcc': np.float64(0.104), 'spd': 0.102, 'aod': 0.062, 'eod': 0.165}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=20, max_features='log2', splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.66, 'recall': 0.564, 'precision': 0.567, 'f1': 0.565, 'mcc': np.float64(0.131), 'spd': 0.058, 'aod': 0.025, 'eod': 0.059}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=10, max_features='sqrt')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.653, 'recall': 0.59, 'precision': 0.582, 'f1': 0.585, 'mcc': np.float64(0.173), 'spd': 0.015, 'aod': 0.079, 'eod': 0.046}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=15, max_features='log2',
+                       splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 15, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}

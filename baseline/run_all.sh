@@ -1,0 +1,9 @@
+python main.py -d german -p sex
+python main.py -d german -p age
+python main.py -d compas -p sex
+python main.py -d compas -p race
+python main.py -d mep -p RACE
+python main.py -d park -p sex
+python main.py -d adult -p sex
+python main.py -d adult -p race
+python main.py -d bank -p age

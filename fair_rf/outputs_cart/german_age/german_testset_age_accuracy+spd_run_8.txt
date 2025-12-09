@@ -1,0 +1,37 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.71, 'recall': 0.66, 'precision': 0.657, 'f1': 0.658, 'mcc': np.float64(0.316), 'spd': 0.138, 'aod': 0.104, 'eod': 0.158}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=20, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.687, 'recall': 0.624, 'precision': 0.625, 'f1': 0.625, 'mcc': np.float64(0.249), 'spd': 0.057, 'aod': 0.037, 'eod': 0.061}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=20, max_features='sqrt')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.713, 'recall': 0.656, 'precision': 0.658, 'f1': 0.657, 'mcc': np.float64(0.313), 'spd': 0.078, 'aod': 0.051, 'eod': 0.085}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='entropy', max_depth=40)
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 40, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.683, 'recall': 0.65, 'precision': 0.637, 'f1': 0.641, 'mcc': np.float64(0.287), 'spd': 0.079, 'aod': 0.05, 'eod': 0.093}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=20, max_features='sqrt',
+                       splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.68, 'recall': 0.622, 'precision': 0.621, 'f1': 0.621, 'mcc': np.float64(0.243), 'spd': 0.02, 'aod': 0.021, 'eod': 0.017}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=20, max_features='sqrt',
+                       splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}

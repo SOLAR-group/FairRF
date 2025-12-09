@@ -1,0 +1,194 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.889, 'recall': 0.641, 'precision': 0.761, 'f1': 0.675, 'mcc': np.float64(0.384), 'spd': 0.185, 'aod': 0.139, 'eod': 0.168}
+ensemble_strategy:Hard_Voting
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=6, weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 6, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(n_estimators=150)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=15, max_features='log2', splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 15, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(class_weight='balanced', fit_intercept=False,
+                   solver='newton-cg')
+hyper_params:{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.896, 'recall': 0.652, 'precision': 0.788, 'f1': 0.691, 'mcc': np.float64(0.419), 'spd': 0.182, 'aod': 0.141, 'eod': 0.195}
+ensemble_strategy:Hard_Voting
+name:knn
+ml_model:KNeighborsClassifier(n_neighbors=18, weights='distance')
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 18, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(criterion='entropy', max_depth=50, max_features='log2',
+                       n_estimators=50)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=50, max_features='log2',
+                       splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 50, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='liblinear')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:lr_0
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:knn_1
+ml_model:KNeighborsClassifier()
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:knn_2
+ml_model:KNeighborsClassifier()
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:lr_3
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:rf_4
+ml_model:RandomForestClassifier()
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.889, 'recall': 0.636, 'precision': 0.758, 'f1': 0.67, 'mcc': np.float64(0.374), 'spd': 0.187, 'aod': 0.144, 'eod': 0.174}
+ensemble_strategy:Soft_Voting
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(max_features='log2', min_samples_split=3,
+                       n_estimators=150)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=30, max_features='log2', splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(solver='newton-cholesky')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cholesky', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:knn_0
+ml_model:KNeighborsClassifier()
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf_1
+ml_model:RandomForestClassifier()
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:knn_2
+ml_model:KNeighborsClassifier()
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.9, 'recall': 0.725, 'precision': 0.78, 'f1': 0.748, 'mcc': np.float64(0.501), 'spd': 0.2, 'aod': 0.098, 'eod': 0.08}
+ensemble_strategy:Stacking
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=8)
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 8, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_depth=30, max_features=None,
+                       min_samples_split=4, n_estimators=200)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 30, 'max_features': None, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 4, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(max_features='log2')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(class_weight='balanced', solver='sag')
+hyper_params:{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'sag', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:lr_0
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:rf_1
+ml_model:RandomForestClassifier()
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:rf_2
+ml_model:RandomForestClassifier()
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.896, 'recall': 0.723, 'precision': 0.765, 'f1': 0.741, 'mcc': np.float64(0.486), 'spd': 0.201, 'aod': 0.099, 'eod': 0.078}
+ensemble_strategy:Stacking
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=3, p=1)
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 1, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(max_depth=30, max_features='log2', min_samples_split=3,
+                       n_estimators=50)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 30, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(max_depth=20, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(class_weight='balanced', solver='liblinear')
+hyper_params:{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:cart_0
+ml_model:DecisionTreeClassifier()
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr_1
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:lr_2
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:knn_3
+ml_model:KNeighborsClassifier()
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.901, 'recall': 0.705, 'precision': 0.789, 'f1': 0.737, 'mcc': np.float64(0.487), 'spd': 0.199, 'aod': 0.116, 'eod': 0.122}
+ensemble_strategy:Soft_Voting
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=8)
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 8, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+name:rf
+ml_model:RandomForestClassifier(max_depth=40, max_features='log2', n_estimators=50)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 40, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=40, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 40, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:lr
+ml_model:LogisticRegression(solver='liblinear')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+name:cart_0
+ml_model:DecisionTreeClassifier()
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'best'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+name:rf_1
+ml_model:RandomForestClassifier()
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}

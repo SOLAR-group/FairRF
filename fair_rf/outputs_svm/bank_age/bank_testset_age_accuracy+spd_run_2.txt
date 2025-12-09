@@ -1,0 +1,63 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.898, 'recall': 0.688, 'precision': 0.791, 'f1': 0.724, 'mcc': np.float64(0.468), 'spd': 0.195, 'aod': 0.117, 'eod': 0.116}
+name:svm
+ml_model:SVC(C=100.0, degree=2, gamma='auto')
+hyper_params:{'C': 100.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 2, 'gamma': 'auto', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.896, 'recall': 0.699, 'precision': 0.777, 'f1': 0.729, 'mcc': np.float64(0.47), 'spd': 0.183, 'aod': 0.092, 'eod': 0.07}
+name:svm
+ml_model:SVC(C=100.0, degree=2, kernel='poly')
+hyper_params:{'C': 100.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 2, 'gamma': 'scale', 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.894, 'recall': 0.659, 'precision': 0.784, 'f1': 0.697, 'mcc': np.float64(0.425), 'spd': 0.128, 'aod': 0.054, 'eod': 0.033}
+name:svm
+ml_model:SVC(C=100.0, degree=4, gamma='auto', kernel='linear')
+hyper_params:{'C': 100.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 4, 'gamma': 'auto', 'kernel': 'linear', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.893, 'recall': 0.628, 'precision': 0.8, 'f1': 0.667, 'mcc': np.float64(0.392), 'spd': 0.127, 'aod': 0.079, 'eod': 0.09}
+name:svm
+ml_model:SVC(C=10.0, degree=4, gamma='auto')
+hyper_params:{'C': 10.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 4, 'gamma': 'auto', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.887, 'recall': 0.602, 'precision': 0.786, 'f1': 0.634, 'mcc': np.float64(0.341), 'spd': 0.113, 'aod': 0.079, 'eod': 0.097}
+name:svm
+ml_model:SVC()
+hyper_params:{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.888, 'recall': 0.602, 'precision': 0.792, 'f1': 0.635, 'mcc': np.float64(0.344), 'spd': 0.122, 'aod': 0.092, 'eod': 0.119}
+name:svm
+ml_model:SVC()
+hyper_params:{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.887, 'recall': 0.603, 'precision': 0.783, 'f1': 0.635, 'mcc': np.float64(0.341), 'spd': 0.118, 'aod': 0.085, 'eod': 0.108}
+name:svm
+ml_model:SVC()
+hyper_params:{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.885, 'recall': 0.591, 'precision': 0.774, 'f1': 0.62, 'mcc': np.float64(0.316), 'spd': 0.095, 'aod': 0.067, 'eod': 0.093}
+name:svm
+ml_model:SVC(gamma='auto')
+hyper_params:{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'auto', 'kernel': 'rbf', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.873, 'recall': 0.5, 'precision': 0.436, 'f1': 0.466, 'mcc': 0.0, 'spd': 0.0, 'aod': 0.0, 'eod': 0.0}
+name:svm
+ml_model:SVC(C=0.1, degree=2, gamma='auto', kernel='poly')
+hyper_params:{'C': 0.1, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 2, 'gamma': 'auto', 'kernel': 'poly', 'max_iter': -1, 'probability': False, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}
+param_ranges:{'C': [0.1, 1.0, 10.0, 100.0], 'kernel': ['linear', 'poly', 'rbf', 'sigmoid'], 'degree': [2, 3, 4], 'gamma': ['scale', 'auto']}

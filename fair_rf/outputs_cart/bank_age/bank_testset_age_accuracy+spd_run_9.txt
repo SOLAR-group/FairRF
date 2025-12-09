@@ -1,0 +1,28 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.899, 'recall': 0.724, 'precision': 0.789, 'f1': 0.75, 'mcc': np.float64(0.508), 'spd': 0.164, 'aod': 0.062, 'eod': 0.052}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=10, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.896, 'recall': 0.719, 'precision': 0.782, 'f1': 0.744, 'mcc': np.float64(0.497), 'spd': 0.173, 'aod': 0.066, 'eod': 0.035}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='log_loss', max_depth=10, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.899, 'recall': 0.742, 'precision': 0.783, 'f1': 0.76, 'mcc': np.float64(0.523), 'spd': 0.213, 'aod': 0.1, 'eod': 0.079}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='entropy', max_depth=10, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.895, 'recall': 0.735, 'precision': 0.773, 'f1': 0.752, 'mcc': np.float64(0.507), 'spd': 0.234, 'aod': 0.128, 'eod': 0.117}
+name:cart
+ml_model:DecisionTreeClassifier(criterion='entropy', max_depth=10, splitter='random')
+hyper_params:{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 10, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'random_state': None, 'splitter': 'random'}
+param_ranges:{'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'splitter': ['best', 'random'], 'max_features': ['sqrt', 'log2', None]}

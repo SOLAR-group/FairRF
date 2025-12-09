@@ -1,0 +1,57 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.846, 'recall': 0.765, 'precision': 0.803, 'f1': 0.781, 'mcc': np.float64(0.567), 'spd': 0.186, 'aod': 0.093, 'eod': 0.106}
+name:lr
+ml_model:LogisticRegression()
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.845, 'recall': 0.763, 'precision': 0.803, 'f1': 0.779, 'mcc': np.float64(0.565), 'spd': 0.179, 'aod': 0.083, 'eod': 0.091}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='sag')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'sag', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.845, 'recall': 0.758, 'precision': 0.804, 'f1': 0.776, 'mcc': np.float64(0.56), 'spd': 0.162, 'aod': 0.059, 'eod': 0.054}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='sag')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'sag', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.844, 'recall': 0.753, 'precision': 0.805, 'f1': 0.773, 'mcc': np.float64(0.555), 'spd': 0.153, 'aod': 0.048, 'eod': 0.036}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='newton-cholesky')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cholesky', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.844, 'recall': 0.751, 'precision': 0.805, 'f1': 0.772, 'mcc': np.float64(0.554), 'spd': 0.149, 'aod': 0.041, 'eod': 0.025}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='liblinear')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'liblinear', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.84, 'recall': 0.743, 'precision': 0.802, 'f1': 0.765, 'mcc': np.float64(0.542), 'spd': 0.134, 'aod': 0.019, 'eod': 0.009}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='newton-cg')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.841, 'recall': 0.743, 'precision': 0.803, 'f1': 0.765, 'mcc': np.float64(0.542), 'spd': 0.129, 'aod': 0.014, 'eod': 0.015}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='newton-cg')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cg', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.825, 'recall': 0.79, 'precision': 0.766, 'f1': 0.776, 'mcc': np.float64(0.555), 'spd': 0.109, 'aod': 0.056, 'eod': 0.128}
+name:lr
+ml_model:LogisticRegression(class_weight='balanced', fit_intercept=False,
+                   solver='newton-cholesky')
+hyper_params:{'C': 1.0, 'class_weight': 'balanced', 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'newton-cholesky', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}

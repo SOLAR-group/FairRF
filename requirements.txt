@@ -1,0 +1,6 @@
+deap==1.4.1
+matplotlib==3.7.2
+numpy==1.24.3
+scikit_learn==1.3.0
+aif360==0.6.1
+demv==1.0.2

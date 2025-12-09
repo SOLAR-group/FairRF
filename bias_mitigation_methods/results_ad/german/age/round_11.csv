@@ -1,0 +1,2 @@
+precision,recall,f1score,mcc,stat_par,eq_odds,ao,acc,model,fairness_method
+0.4533777777777777,0.6733333333333333,0.5418857901726427,0.0,0.0,0.0,0.0,0.6733333333333333,adversarial_debiasing,NO_ONE

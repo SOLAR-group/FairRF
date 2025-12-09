@@ -1,0 +1,29 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.687, 'recall': 0.594, 'precision': 0.626, 'f1': 0.596, 'mcc': np.float64(0.217), 'spd': 0.04, 'aod': 0.007, 'eod': 0.028}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='ball_tree', n_neighbors=3, weights='distance')
+hyper_params:{'algorithm': 'ball_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.727, 'recall': 0.623, 'precision': 0.697, 'f1': 0.629, 'mcc': np.float64(0.311), 'spd': 0.067, 'aod': 0.03, 'eod': 0.019}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='ball_tree', n_neighbors=12, weights='distance')
+hyper_params:{'algorithm': 'ball_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 12, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.733, 'recall': 0.631, 'precision': 0.709, 'f1': 0.638, 'mcc': np.float64(0.331), 'spd': 0.067, 'aod': 0.026, 'eod': 0.025}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='ball_tree', n_neighbors=14, p=1,
+                     weights='distance')
+hyper_params:{'algorithm': 'ball_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 14, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.693, 'recall': 0.623, 'precision': 0.641, 'f1': 0.628, 'mcc': np.float64(0.263), 'spd': 0.064, 'aod': 0.018, 'eod': 0.066}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=2, weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 2, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}

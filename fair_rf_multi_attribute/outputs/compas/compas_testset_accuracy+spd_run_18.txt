@@ -1,0 +1,99 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.689, 'recall': 0.682, 'precision': 0.692, 'f1': 0.682, 'mcc': np.float64(0.374), 'avg_spd': np.float64(0.224), 'avg_aod': np.float64(0.189), 'avg_eod': np.float64(0.14900000000000002), 'spd': 0.331, 'aod': 0.29, 'eod': 0.242}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_depth=20, min_samples_split=4)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 20, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 4, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.681, 'recall': 0.672, 'precision': 0.69, 'f1': 0.67, 'mcc': np.float64(0.362), 'avg_spd': np.float64(0.1535), 'avg_aod': np.float64(0.119), 'avg_eod': np.float64(0.076), 'spd': 0.235, 'aod': 0.198, 'eod': 0.13}
+name:rf
+ml_model:RandomForestClassifier(criterion='entropy', max_depth=15, min_samples_split=3,
+                       n_estimators=200)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 15, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.681, 'recall': 0.673, 'precision': 0.687, 'f1': 0.671, 'mcc': np.float64(0.359), 'avg_spd': np.float64(0.17149999999999999), 'avg_aod': np.float64(0.1375), 'avg_eod': np.float64(0.1), 'spd': 0.275, 'aod': 0.241, 'eod': 0.169}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_depth=15, min_samples_split=3,
+                       n_estimators=50)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 15, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 50, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.651, 'recall': 0.638, 'precision': 0.668, 'f1': 0.629, 'mcc': np.float64(0.305), 'avg_spd': np.float64(0.1115), 'avg_aod': np.float64(0.0795), 'avg_eod': np.float64(0.0725), 'spd': 0.172, 'aod': 0.134, 'eod': 0.132}
+name:rf
+ml_model:RandomForestClassifier(max_depth=20, max_features='log2', n_estimators=80)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 20, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 80, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.662, 'recall': 0.658, 'precision': 0.662, 'f1': 0.658, 'mcc': np.float64(0.319), 'avg_spd': np.float64(0.17149999999999999), 'avg_aod': np.float64(0.14100000000000001), 'avg_eod': np.float64(0.1015), 'spd': 0.274, 'aod': 0.241, 'eod': 0.179}
+name:rf
+ml_model:RandomForestClassifier(criterion='entropy', max_depth=50, max_features='log2',
+                       min_samples_split=3, n_estimators=200)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 50, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.652, 'recall': 0.642, 'precision': 0.659, 'f1': 0.638, 'mcc': np.float64(0.3), 'avg_spd': np.float64(0.1065), 'avg_aod': np.float64(0.074), 'avg_eod': np.float64(0.063), 'spd': 0.17, 'aod': 0.131, 'eod': 0.125}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_depth=40, max_features='log2',
+                       min_samples_split=4, n_estimators=200)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 40, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 4, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 200, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.656, 'recall': 0.652, 'precision': 0.655, 'f1': 0.652, 'mcc': np.float64(0.307), 'avg_spd': np.float64(0.1395), 'avg_aod': np.float64(0.10650000000000001), 'avg_eod': np.float64(0.0925), 'spd': 0.216, 'aod': 0.181, 'eod': 0.15}
+name:rf
+ml_model:RandomForestClassifier(max_depth=40, max_features=None)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 40, 'max_features': None, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.662, 'recall': 0.66, 'precision': 0.661, 'f1': 0.66, 'mcc': np.float64(0.321), 'avg_spd': np.float64(0.14150000000000001), 'avg_aod': np.float64(0.105), 'avg_eod': np.float64(0.0925), 'spd': 0.229, 'aod': 0.189, 'eod': 0.169}
+name:rf
+ml_model:RandomForestClassifier(criterion='entropy', max_depth=50, max_features=None,
+                       min_samples_split=3, n_estimators=150)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 50, 'max_features': None, 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.637, 'recall': 0.631, 'precision': 0.637, 'f1': 0.63, 'mcc': np.float64(0.267), 'avg_spd': np.float64(0.10250000000000001), 'avg_aod': np.float64(0.075), 'avg_eod': np.float64(0.0655), 'spd': 0.189, 'aod': 0.163, 'eod': 0.126}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_depth=40, max_features='log2',
+                       n_estimators=10)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': 40, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.63, 'recall': 0.63, 'precision': 0.629, 'f1': 0.63, 'mcc': np.float64(0.259), 'avg_spd': np.float64(0.1295), 'avg_aod': np.float64(0.10250000000000001), 'avg_eod': np.float64(0.0815), 'spd': 0.206, 'aod': 0.175, 'eod': 0.148}
+name:rf
+ml_model:RandomForestClassifier(criterion='log_loss', max_features='log2',
+                       n_estimators=10)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'log_loss', 'max_depth': None, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.628, 'recall': 0.608, 'precision': 0.697, 'f1': 0.57, 'mcc': np.float64(0.291), 'avg_spd': np.float64(0.077), 'avg_aod': np.float64(0.05450000000000001), 'avg_eod': np.float64(0.035), 'spd': 0.123, 'aod': 0.104, 'eod': 0.052}
+name:rf
+ml_model:RandomForestClassifier(max_depth=10, max_features='log2')
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.628, 'recall': 0.611, 'precision': 0.661, 'f1': 0.589, 'mcc': np.float64(0.268), 'avg_spd': np.float64(0.1315), 'avg_aod': np.float64(0.1115), 'avg_eod': np.float64(0.07350000000000001), 'spd': 0.195, 'aod': 0.17, 'eod': 0.127}
+name:rf
+ml_model:RandomForestClassifier(criterion='entropy', max_depth=10, max_features='log2',
+                       min_samples_split=3, n_estimators=10)
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 10, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 10, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.593, 'recall': 0.568, 'precision': 0.691, 'f1': 0.499, 'mcc': np.float64(0.228), 'avg_spd': np.float64(0.041), 'avg_aod': np.float64(0.0265), 'avg_eod': np.float64(0.024), 'spd': 0.083, 'aod': 0.065, 'eod': 0.038}
+name:rf
+ml_model:RandomForestClassifier(max_depth=10, max_features='log2')
+hyper_params:{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': 10, 'max_features': 'log2', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'monotonic_cst': None, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+param_ranges:{'n_estimators': [10, 20, 50, 80, 100, 150, 200], 'criterion': ['gini', 'entropy', 'log_loss'], 'max_depth': [None, 10, 15, 20, 30, 40, 50], 'min_samples_split': [2, 3, 4], 'max_features': ['sqrt', 'log2', None]}

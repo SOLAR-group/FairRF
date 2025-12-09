@@ -1,0 +1,7 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.884, 'recall': 0.58, 'precision': 0.778, 'f1': 0.605, 'mcc': np.float64(0.298), 'spd': 0.113, 'aod': 0.095, 'eod': 0.13}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='ball_tree', n_neighbors=20)
+hyper_params:{'algorithm': 'ball_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 20, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}

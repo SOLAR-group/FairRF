@@ -1,0 +1,7 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.901, 'recall': 0.712, 'precision': 0.787, 'f1': 0.741, 'mcc': np.float64(0.493), 'spd': 0.125, 'aod': 0.04, 'eod': 0.013}
+name:lr
+ml_model:LogisticRegression(fit_intercept=False, solver='saga')
+hyper_params:{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': False, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'deprecated', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'saga', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+param_ranges:{'fit_intercept': [True, False], 'class_weight': ['balanced', None], 'solver': ['lbfgs', 'liblinear', 'newton-cg', 'newton-cholesky', 'sag', 'saga']}

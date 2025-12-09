@@ -1,0 +1,9 @@
+python FairHome.py -d compas -c rf
+python FairHome.py -d compas -c svm
+python FairHome.py -d compas -c lr
+python FairHome.py -d adult -c rf
+python FairHome.py -d adult -c svm
+python FairHome.py -d adult -c lr
+python FairHome.py -d german -c rf
+python FairHome.py -d german -c svm
+python FairHome.py -d german -c lr

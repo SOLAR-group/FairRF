@@ -1,0 +1,87 @@
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.656, 'recall': 0.652, 'precision': 0.655, 'f1': 0.652, 'mcc': np.float64(0.307), 'spd': 0.207, 'aod': 0.183, 'eod': 0.148}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=20)
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 20, 'p': 2, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.638, 'recall': 0.632, 'precision': 0.637, 'f1': 0.632, 'mcc': np.float64(0.27), 'spd': 0.086, 'aod': 0.062, 'eod': 0.042}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=20, p=1)
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 20, 'p': 1, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.648, 'recall': 0.646, 'precision': 0.647, 'f1': 0.646, 'mcc': np.float64(0.292), 'spd': 0.146, 'aod': 0.122, 'eod': 0.093}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='ball_tree', n_neighbors=14, p=1)
+hyper_params:{'algorithm': 'ball_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 14, 'p': 1, 'weights': 'uniform'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.622, 'recall': 0.618, 'precision': 0.621, 'f1': 0.618, 'mcc': np.float64(0.238), 'spd': 0.114, 'aod': 0.096, 'eod': 0.055}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=12, weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 12, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.632, 'recall': 0.627, 'precision': 0.63, 'f1': 0.627, 'mcc': np.float64(0.257), 'spd': 0.121, 'aod': 0.099, 'eod': 0.078}
+name:knn
+ml_model:KNeighborsClassifier(n_neighbors=18, weights='distance')
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 18, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.625, 'recall': 0.62, 'precision': 0.623, 'f1': 0.62, 'mcc': np.float64(0.243), 'spd': 0.116, 'aod': 0.099, 'eod': 0.051}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=18, p=1,
+                     weights='distance')
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 18, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.611, 'recall': 0.607, 'precision': 0.609, 'f1': 0.607, 'mcc': np.float64(0.216), 'spd': 0.07, 'aod': 0.051, 'eod': 0.037}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=3, weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 3, 'p': 2, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.599, 'recall': 0.592, 'precision': 0.597, 'f1': 0.59, 'mcc': np.float64(0.19), 'spd': 0.071, 'aod': 0.057, 'eod': 0.023}
+name:knn
+ml_model:KNeighborsClassifier(n_neighbors=12, p=1, weights='distance')
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 12, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.6, 'recall': 0.596, 'precision': 0.598, 'f1': 0.596, 'mcc': np.float64(0.194), 'spd': 0.115, 'aod': 0.1, 'eod': 0.072}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='brute', n_neighbors=12, p=1, weights='distance')
+hyper_params:{'algorithm': 'brute', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 12, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.594, 'recall': 0.588, 'precision': 0.592, 'f1': 0.586, 'mcc': np.float64(0.18), 'spd': 0.081, 'aod': 0.068, 'eod': 0.034}
+name:knn
+ml_model:KNeighborsClassifier(n_neighbors=12, p=1, weights='distance')
+hyper_params:{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 12, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.568, 'recall': 0.566, 'precision': 0.566, 'f1': 0.566, 'mcc': np.float64(0.132), 'spd': 0.022, 'aod': 0.012, 'eod': 0.015}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=2, p=1,
+                     weights='distance')
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 2, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
+
+***************************Chromo*************************** 
+score:{'accuracy': 0.565, 'recall': 0.564, 'precision': 0.564, 'f1': 0.564, 'mcc': np.float64(0.128), 'spd': 0.024, 'aod': 0.013, 'eod': 0.006}
+name:knn
+ml_model:KNeighborsClassifier(algorithm='kd_tree', n_neighbors=2, p=1,
+                     weights='distance')
+hyper_params:{'algorithm': 'kd_tree', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 2, 'p': 1, 'weights': 'distance'}
+param_ranges:{'n_neighbors': [2, 3, 4, 5, 6, 8, 10, 12, 14, 18, 20], 'weights': ['uniform', 'distance'], 'algorithm': ['auto', 'ball_tree', 'kd_tree', 'brute'], 'p': [1, 2]}
