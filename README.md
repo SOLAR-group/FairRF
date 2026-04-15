@@ -38,3 +38,17 @@ pip install -r requirements.txt
 ### Datasets
 
 Follow the instructions reported here <https://github.com/Trusted-AI/AIF360/tree/7c4f172f4a81b1d14d19400e95c468aaf3134952/aif360/data> to download the datasets used in the paper.
+
+
+## Citation Request
+
+Please cite our paper if you use FairRF in your work
+
+```bibtex
+@inproceedings{d2026fairrf,
+  title={FairRF: Multi-Objective Search for Single and Intersectional Software Fairness},
+  author={d'Alosio, Giordano and Hort, Max and Moussa, Rebecca and Sarro, Federica},
+  booktitle={2026 IEEE/ACM 48th International Conference on Software Engineering (ICSE-SEIS '26), April 12--18, 2026, Rio de Janeiro, Brazil},
+  year={2026}
+}
+```
